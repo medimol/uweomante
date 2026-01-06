@@ -45,14 +45,16 @@ body
     --h4-color: var(--nord10);
     /* Inline title */
     --inline-title-color: var(--nord4);
+    /* Table */
+    --table-border-color: var(--nord3);
 
   /* Foundation */
     /* Colors */
       /* Accent color */
-      /* nord6 */
-      --accent-h: 217.5;
-      --accent-s: 26.7%;
-      --accent-l: 94.1%;
+      /* nord4 */
+      --accent-h: 218.824;
+      --accent-s: 28%;
+      --accent-l: 88%;
       /* Semantic colors */
       --background-primary: var(--nord0);
       --background-secondary: var(--nord1);
