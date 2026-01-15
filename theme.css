@@ -3,7 +3,7 @@
   --nord0: #2e3440;
   --nord1: #3b4252;
   --nord2: #434c5e;
-  --nord3: #4c566a;
+  --nord3: #4c566a; /*220 16% 36%*/
 
   /* Snow Storm */
   --nord4: #d8dee9; /*219 28% 88%*/
@@ -58,4 +58,27 @@ body
       /* Semantic colors */
       --background-primary: var(--nord0);
       --background-secondary: var(--nord1);
+}
+
+.theme-light
+{
+  /* Editor */
+    /* Headings */
+    --h5-color: var(--nord1);
+    --h6-color: var(--nord0);
+    /* Inline title */
+    --inline-title-color: var(--nord3);
+    /* Table */
+    --table-border-color: var(--nord4);
+
+  /* Foundation */
+    /* Colors */
+      /* Accent color */
+      /* nord4 */
+      --accent-h: 220;
+      --accent-s: 16%;
+      --accent-l: 36%;
+      /* Semantic colors */
+      --background-primary: #FFFFFF;
+      --background-secondary: #f2f4f8;
 }
