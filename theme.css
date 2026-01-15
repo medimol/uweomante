@@ -6,15 +6,15 @@
   --nord3: #4c566a;
 
   /* Snow Storm */
-  --nord4: #d8dee9;
+  --nord4: #d8dee9; /*219 28% 88%*/
   --nord5: #e5e9f0;
   --nord6: #eceff4;
 
   /* Frost */
-  --nord7: #8fbcbb;
-  --nord8: #88c0d0;
-  --nord9: #81a1c1;
-  --nord10: #5e81ac;
+  --nord7: #8fbcbb; /*179 25% 65%*/
+  --nord8: #88c0d0; /*193 43% 67%*/
+  --nord9: #81a1c1; /*210 34% 63%*/
+  --nord10: #5e81ac; /*213 32% 52%*/
 
   /* Aurora */
   --nord11: #bf616a;
@@ -27,6 +27,11 @@
 body
 {
   /* Editor */
+    /* Headings */
+    --h1-color: var(--nord8);
+    --h2-color: var(--nord7);
+    --h3-color: var(--nord9);
+    --h4-color: var(--nord10);
     /* Link */
     --link-color: #0b62e5;
     --link-external-color: #0b62e5;
@@ -35,14 +40,9 @@ body
 .theme-dark
 {
   /* Editor */
-    /* Blockquote */
-    --blockquote-background-color: var(#FFFFFF);
-    --blockquote-border-color: var(#648897);
     /* Headings */
-    --h1-color: var(--nord7);
-    --h2-color: var(--nord8);
-    --h3-color: var(--nord9);
-    --h4-color: var(--nord10);
+    --h5-color: var(--nord6);
+    --h6-color: var(--nord5);
     /* Inline title */
     --inline-title-color: var(--nord4);
     /* Table */
@@ -52,7 +52,7 @@ body
     /* Colors */
       /* Accent color */
       /* nord4 */
-      --accent-h: 218.824;
+      --accent-h: 219;
       --accent-s: 28%;
       --accent-l: 88%;
       /* Semantic colors */
