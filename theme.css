@@ -33,8 +33,8 @@ body
     --h3-color: var(--nord9);
     --h4-color: var(--nord10);
     /* Link */
-    --link-color: #0b62e5;
-    --link-external-color: #0b62e5;
+    --link-color: #4a9dff;
+    --link-external-color: #4a9dff;
 }
  
 .theme-dark
