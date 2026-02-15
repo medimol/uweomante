@@ -39,6 +39,14 @@ body
  
 .theme-dark
 {
+  /* Components */
+    /* Tabs */
+    --tab-text-color: var(--nord5);
+    --tab-text-color-active: var(--nord6);
+    --tab-text-color-focused: var(--nord4);
+    /* Toggle */
+    --toggle-thumb-color: var(--nord3);
+
   /* Editor */
     /* Headings */
     --h5-color: var(--nord6);
@@ -58,6 +66,13 @@ body
       /* Semantic colors */
       --background-primary: var(--nord0);
       --background-secondary: var(--nord1);
+      /* Text colors */
+      --text-on-accent: var(--nord3);
+
+  /* Window */
+    /* Window frame */
+    --titlebar-background: var(--nord1);
+    --titlebar-background-focused: var(--nord2);
 }
 
 .theme-light
@@ -81,4 +96,6 @@ body
       /* Semantic colors */
       --background-primary: #FFFFFF;
       --background-secondary: #f2f4f8;
+      /* Text colors */
+      --text-on-accent: var(--nord5);
 }
