@@ -41,9 +41,10 @@ body
 {
   /* Components */
     /* Tabs */
-    --tab-text-color: var(--nord5);
-    --tab-text-color-active: var(--nord6);
-    --tab-text-color-focused: var(--nord4);
+    --tab-text-color: #9ea1a8;
+    --tab-text-color-active: var(--nord4);
+    --tab-text-color-focused: var(--nord6);
+    --tab-divider-color: #878b92;
     /* Toggle */
     --toggle-thumb-color: var(--nord3);
 
