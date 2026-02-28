@@ -50,8 +50,12 @@ body
 
   /* Editor */
     /* Headings */
-    --h5-color: var(--nord6);
-    --h6-color: var(--nord5);
+    --h1-color: #BDD3E9;
+    --h2-color: #A1BBD5;
+    --h3-color: #81A1C1;
+    --h4-color: #6388AD;
+    --h5-color: #456F99;
+    --h6-color: #275685;
     /* Inline title */
     --inline-title-color: var(--nord4);
     /* Table */
