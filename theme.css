@@ -106,7 +106,3 @@ body
       /* Text colors */
       --text-on-accent: var(--nord5);
 }
-
-.CodeMirror-activeline.CodeMirror-linebackground {
-    background-color: #468eeb33;
-}
