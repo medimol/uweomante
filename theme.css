@@ -56,6 +56,8 @@ body
     --h4-color: #6388AD;
     --h5-color: #456F99;
     --h6-color: #275685;
+    /* Horizontal rule */
+    --hr-color: var(--nord3);
     /* Inline title */
     --inline-title-color: var(--nord4);
     /* Table */
@@ -103,4 +105,8 @@ body
       --background-secondary: #f2f4f8;
       /* Text colors */
       --text-on-accent: var(--nord5);
+}
+
+.CodeMirror-activeline.CodeMirror-linebackground {
+    background-color: #468eeb33;
 }
