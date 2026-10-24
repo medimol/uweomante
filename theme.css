@@ -80,6 +80,8 @@ body
     /* Window frame */
     --titlebar-background: var(--nord1);
     --titlebar-background-focused: var(--nord2);
+
+    --cursor-line-background: var(--nord13);
 }
 
 .theme-light
@@ -105,4 +107,9 @@ body
       --background-secondary: #f2f4f8;
       /* Text colors */
       --text-on-accent: var(--nord5);
+}
+
+.cm-active
+{
+    background-color: var(--cursor-line-background) !important;
 }
