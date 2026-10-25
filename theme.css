@@ -79,9 +79,10 @@ body
   /* Window */
     /* Window frame */
     --titlebar-background: var(--nord1);
-    --titlebar-background-focused: var(--nord2);
+    --titlebar-background-focused: var(--nord1);
 
-    --cursor-line-background: var(--nord13);
+  /* Others */
+  --cursor-line-background: var(--nord1);
 }
 
 .theme-light
@@ -111,5 +112,5 @@ body
 
 .cm-active
 {
-    background-color: var(--cursor-line-background) !important;
+  background-color: var(--cursor-line-background) !important;
 }
